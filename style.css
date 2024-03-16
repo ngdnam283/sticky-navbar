@@ -72,3 +72,43 @@ header.sticky .logo,
 header.sticky ul li a {
     color: #000;
 }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-table {
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+.content-table th {
+    border: 1px solid #dddddd; 
+    color: #fff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.content-table td {
+    border: 1px solid #dddddd; 
+    text-align: left;
+    padding: 8px;
+}
+
+#stock-list h2 {
+    text-align: left;
+    padding-bottom: 10px;
+    margin-left: -215px;
+}
+
+#transaction-history h2 {
+    text-align: left;
+    padding-bottom: 10px;
+    margin-left: -100px;
+}

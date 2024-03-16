@@ -21,13 +21,19 @@
     </header>
 
     <section class="banner"></section>
+
     <script type ="text/javascript">
         window.addEventListener("scroll", function(){
             var header = document.querySelector("header");
             header.classList.toggle("sticky", window.scrollY > 0);
         })
     </script>
-    <!-- Add your JavaScript files here -->
 
+    <div class="container">
+        <div id="stock-list" class="content-table"></div> 
+        <div id="transaction-history"  class="content-table"></div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
